@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendy Blurry Glass Effect</title>
+  </head>
+  <body>
+    <div id="app">
+      <main
+        class="min-h-screen bg-[url(/bg-home.jpg)] bg-center bg-cover flex items-center justify-center px-2"
+      >
+        <div
+          class="card w-full max-w-[500px] p-5 text-gray-50 flex flex-col justify-center gap-5"
+        >
+          <div>
+            <h1 class="title text-lg font-semibold">Refer and Earn</h1>
+            <p class="description text-sm font-light text-gray-300">
+              Refer Friends, Earn Points and Fees
+            </p>
+          </div>
+
+          <div class="flex items-start justify-between">
+            <div class="relative">
+              <p class="text-sm font-light text-gray-300">Refer Code</p>
+              <p
+                class="flex items-center gap-2 text-gray-50 bg-slate-950 px-[7px] py-[2px] rounded-lg"
+              >
+                <span class="refer-code text-sm tracking-[.2em]"
+                  >7D45564JK355</span
+                >
+                <span
+                  class="copied-message hidden absolute -top-[20px] -right-[60px] bg-green-500 text-slate-950 px-3 py-2 rounded-[5px] text-base"
+                  >Copied!</span
+                >
+                <span class="copy-icon cursor-pointer"></span>
+              </p>
+            </div>
+            <div
+              class="text-sm font-light text-gray-300 flex flex-col items-end"
+            >
+              <p>Referred Users</p>
+              <p>4</p>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-1 items-center flex-col bg-slate-950 py-[6px] rounded-[12px] text-sm"
+          >
+            <p class="text-gray-300">Rewards</p>
+            <p>
+              <span class="text-green-400">20%</span> platform Fees +
+              <span class="text-green-400">10%</span> Extra Points
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
